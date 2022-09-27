@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(Background-1.jpg);
+}
+
+section {
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: linear-gradient(rgb(255, 0, 123),black,rgba(49, 0, 148, 0.671));
+    color: whitesmoke;
+}
+
+section h1 {
+    position: left;
+    font-size: 36px;
+}
+
+section h1 menu {
+    padding-top: 10px;
+    margin-right: 10px;
+    float: right;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+section h1 menu ul li {
+    display:block;
+    justify-content: space-around;
+    margin-left: 25px;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+p {
+    font-size: 14px;
+}
+
+.work {
+    margin:15px;
+    padding:10px;
+    position:fixed;
+    border: inset,fuchsia;
+    border-radius:3px;
+}
+
+.Contingent-Projects {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width:75%;
+    background-color:black;
+    color:whitesmoke;
+    text-align:center;
+}
+
+.About-Me {
+    position:fixed,right;
+    left: 200px;
+    bottom: 80px;
+    width: 50%;
+}
+
+.Contact-Me {
+    flex-wrap:wrap;
+    flex-direction: column;
+}
+
+.end {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width:75%;
+    background-color:black;
+    color:whitesmoke;
+    text-align:center;
+}
